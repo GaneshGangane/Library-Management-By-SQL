@@ -1,4 +1,4 @@
--- Library Management System in Oracle SQL
+-- Library Management By SQL
 
 -- 1. Creating Tables
 CREATE TABLE Books (
