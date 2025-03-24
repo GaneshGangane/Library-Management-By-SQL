@@ -33,8 +33,8 @@ INSERT INTO Books VALUES (1, 'The Great Gatsby', 'F. Scott Fitzgerald', 'Fiction
 INSERT INTO Books VALUES (2, '1984', 'George Orwell', 'Dystopian', 1949, 3);
 INSERT INTO Books VALUES (3, 'To Kill a Mockingbird', 'Harper Lee', 'Classic', 1960, 4);
 
-INSERT INTO Members VALUES (1, 'John Doe', 'john.doe@example.com', '1234567890', SYSDATE);
-INSERT INTO Members VALUES (2, 'Jane Smith', 'jane.smith@example.com', '9876543210', SYSDATE);
+INSERT INTO Members VALUES (1, 'Ganesh Gangane', 'ganeshganagne@example.com', '1234567890', SYSDATE);
+INSERT INTO Members VALUES (2, 'Datta Bharade', 'dattabharade@example.com', '9876543210', SYSDATE);
 
 INSERT INTO Transactions VALUES (1, 1, 1, SYSDATE, SYSDATE + 14, NULL, 'Issued');
 INSERT INTO Transactions VALUES (2, 2, 2, SYSDATE, SYSDATE + 14, NULL, 'Issued');
