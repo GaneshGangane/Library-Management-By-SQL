@@ -29,11 +29,11 @@ CREATE TABLE Transactions (
 );
 
 -- 2. Inserting Sample Data
-INSERT INTO Books VALUES (1, 'The Great Gatsby', 'F. Scott Fitzgerald', 'Fiction', 1925, 5);
-INSERT INTO Books VALUES (2, '1984', 'George Orwell', 'Dystopian', 1949, 3);
-INSERT INTO Books VALUES (3, 'To Kill a Mockingbird', 'Harper Lee', 'Classic', 1960, 4);
+INSERT INTO Books VALUES (1, 'Atomic Habits', 'James Clear', 'Self-help book', 2018, 5);
+INSERT INTO Books VALUES (2, 'Rich Dad Poor Dad', 'Robert Kiyosaki, Sharon Lechter', 'Personal finance, Non-fiction', 1997, 3);
+INSERT INTO Books VALUES (3, 'Ikigai', 'Francesc Miralles, Hector Garcia', 'Self-help book', 2016, 4);
 
-INSERT INTO Members VALUES (1, 'Ganesh Gangane', 'ganeshganagne@example.com', '1234567890', SYSDATE);
+INSERT INTO Members VALUES (1, 'Ganesh Gangane', 'ganeshganagne@example.com', '7709863518', SYSDATE);
 INSERT INTO Members VALUES (2, 'Datta Bharade', 'dattabharade@example.com', '9876543210', SYSDATE);
 
 INSERT INTO Transactions VALUES (1, 1, 1, SYSDATE, SYSDATE + 14, NULL, 'Issued');
