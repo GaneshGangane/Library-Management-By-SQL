@@ -1,4 +1,4 @@
-# Library Management System (Oracle SQL)
+# Library Management System ( - SQL)
 
 ## 📌 Project Overview
 This project implements a **Library Management System** using **Oracle SQL**. It includes database schema creation, sample data insertion, and essential queries for managing books, members, and transactions.
